@@ -23,9 +23,32 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.productimage{
+  object-fit: contain;
+}
+.cont{
+  margin: 10px;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
 
+.container{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+
+}
 .App-link {
   color: #61dafb;
+}
+.d-flex {
+display: flex;
+width: 100%;
+justify-content: space-evenly;
 }
 
 @keyframes App-logo-spin {
